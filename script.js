@@ -1,4 +1,6 @@
-// Day 1 - IP Validation (6kyu)
+// === Day 1 ===
+
+// IP Validation (6kyu)
 const isValidIP = require("./katas/6kyu/IPValidation");
 
 // Tests
