@@ -32,7 +32,7 @@ const findDifference = require("./katas/8kyu/VolumeOfCuboids");
 // console.log(findDifference([4, 4, 7], [3, 9, 3]));
 // console.log(findDifference([15, 20, 25], [10, 30, 25]));
 
-// == Sum - Square Even, Root Odd ==
+// == Sum - Square Even, Root Odd (7kyu) ==
 const sumSquareEvenRootOdd = require("./katas/7kyu/SumSquares");
 
 // Tests
