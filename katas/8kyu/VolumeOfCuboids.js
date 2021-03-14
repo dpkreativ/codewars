@@ -10,6 +10,10 @@ If you can, try writing it in one line of code.
 */
 
 // === Solution ===
-const findDifference;
+const findDifference = (a, b) => {
+  const productA = a.reduce((acc, cur) => acc * cur);
+  const productB = b.reduce((acc, cur) => acc * cur);
+  return Math.abs(productA - productB);
+};
 
 module.exports = findDifference;
