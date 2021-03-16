@@ -41,8 +41,24 @@ const sumSquareEvenRootOdd = require("./katas/7kyu/SumSquares");
 
 // ===========================================================================
 // === Day 2 ===
+
+// == Detect Pangram (6kyu) ==
 const isPangram = require("./katas/6kyu/CheckPangram");
 
 // Tests
-console.log(isPangram("The quick brown fox jumps over the lazy dog."));
-console.log(isPangram("This is not a pangram."));
+// console.log(isPangram("The quick brown fox jumps over the lazy dog."));
+// console.log(isPangram("This is not a pangram."));
+
+// ===========================================================================
+// === Day 3 ===
+
+// == Isograms (7kyu) ==
+const isIsogram = require("./katas/7kyu/Isograms");
+
+// Tests
+console.log(isIsogram("Dermatoglyphics")); // true
+console.log(isIsogram("isogram")); // true
+console.log(isIsogram("aba")); // false
+console.log(isIsogram("moOse")); // false
+console.log(isIsogram("isIsogram")); // false
+console.log(isIsogram("")); // true - empty string is a valid isogram
