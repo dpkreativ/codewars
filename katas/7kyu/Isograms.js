@@ -9,6 +9,12 @@ isIsogram("moOse") == false // -- ignore letter case
 */
 
 // === Solution ===
-const isIsogram = (str) => {};
+const isIsogram = (str) => {
+  stringArray = str.toLowerCase().split("");
+  if (new Set(stringArray).size !== stringArray.length) {
+    return false;
+  }
+  return true;
+};
 
 module.exports = isIsogram;
