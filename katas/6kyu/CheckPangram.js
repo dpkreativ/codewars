@@ -6,3 +6,8 @@ Given a string, detect whether or not it is a pangram. Return True if it is, Fal
 */
 
 // === Solution ===
+const isPangram = (string) => {
+  return new Set(string.toLowerCase().replace(/[^a-z]/g, "")).size === 26;
+};
+
+module.exports = isPangram;

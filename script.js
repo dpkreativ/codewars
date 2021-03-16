@@ -36,5 +36,13 @@ const findDifference = require("./katas/8kyu/VolumeOfCuboids");
 const sumSquareEvenRootOdd = require("./katas/7kyu/SumSquares");
 
 // Tests
-console.log(sumSquareEvenRootOdd([4, 5, 7, 8, 1, 2, 3, 0]));
-console.log(sumSquareEvenRootOdd([1, 14, 9, 8, 17, 21]));
+// console.log(sumSquareEvenRootOdd([4, 5, 7, 8, 1, 2, 3, 0]));
+// console.log(sumSquareEvenRootOdd([1, 14, 9, 8, 17, 21]));
+
+// ===========================================================================
+// === Day 2 ===
+const isPangram = require("./katas/6kyu/CheckPangram");
+
+// Tests
+console.log(isPangram("The quick brown fox jumps over the lazy dog."));
+console.log(isPangram("This is not a pangram."));
