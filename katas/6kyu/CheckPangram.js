@@ -10,4 +10,4 @@ const isPangram = (string) => {
   return new Set(string.toLowerCase().replace(/[^a-z]/g, "")).size === 26;
 };
 
-module.exports = isPangram;
+export default isPangram;

@@ -17,4 +17,4 @@ const isIsogram = (str) => {
   return true;
 };
 
-module.exports = isIsogram;
+export default isIsogram;

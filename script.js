@@ -1,7 +1,7 @@
 // === Day 1 ===
 
 // == IP Validation (6kyu) ==
-const isValidIP = require("./katas/6kyu/IPValidation");
+import isValidIP from "./katas/6kyu/IPValidation";
 
 // Tests
 // console.log(isValidIP("0.0.0.0"));
@@ -23,7 +23,7 @@ const isValidIP = require("./katas/6kyu/IPValidation");
 // console.log(isValidIP("\n1.2.3.4"));
 
 // == Difference of Volumes of Cuboids (8kyu) ==
-const findDifference = require("./katas/8kyu/VolumeOfCuboids");
+import findDifference from "./katas/8kyu/VolumeOfCuboids";
 
 // Tests
 // console.log(findDifference([3, 2, 5], [1, 4, 4]));
@@ -33,7 +33,7 @@ const findDifference = require("./katas/8kyu/VolumeOfCuboids");
 // console.log(findDifference([15, 20, 25], [10, 30, 25]));
 
 // == Sum - Square Even, Root Odd (7kyu) ==
-const sumSquareEvenRootOdd = require("./katas/7kyu/SumSquares");
+import sumSquareEvenRootOdd from "./katas/7kyu/SumSquares";
 
 // Tests
 // console.log(sumSquareEvenRootOdd([4, 5, 7, 8, 1, 2, 3, 0]));
@@ -43,7 +43,7 @@ const sumSquareEvenRootOdd = require("./katas/7kyu/SumSquares");
 // === Day 2 ===
 
 // == Detect Pangram (6kyu) ==
-const isPangram = require("./katas/6kyu/CheckPangram");
+import isPangram from "./katas/6kyu/CheckPangram";
 
 // Tests
 // console.log(isPangram("The quick brown fox jumps over the lazy dog."));
@@ -53,7 +53,7 @@ const isPangram = require("./katas/6kyu/CheckPangram");
 // === Day 3 ===
 
 // == Isograms (7kyu) ==
-const isIsogram = require("./katas/7kyu/Isograms");
+import isIsogram from "./katas/7kyu/Isograms";
 
 // Tests
 console.log(isIsogram("Dermatoglyphics")); // true
@@ -62,3 +62,8 @@ console.log(isIsogram("aba")); // false
 console.log(isIsogram("moOse")); // false
 console.log(isIsogram("isIsogram")); // false
 console.log(isIsogram("")); // true - empty string is a valid isogram
+
+// ===========================================================================
+// === Day 4 ===
+
+// == Opposites Attract (8kyu) ==

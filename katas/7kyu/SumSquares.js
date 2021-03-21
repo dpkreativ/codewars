@@ -22,4 +22,4 @@ const sumSquareEvenRootOdd = (nums) => {
   return twoDecimals;
 };
 
-module.exports = sumSquareEvenRootOdd;
+export default sumSquareEvenRootOdd;

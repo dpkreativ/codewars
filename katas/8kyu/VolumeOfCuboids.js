@@ -16,4 +16,4 @@ const findDifference = (a, b) => {
   return Math.abs(productA - productB);
 };
 
-module.exports = findDifference;
+export default findDifference;

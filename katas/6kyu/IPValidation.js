@@ -49,4 +49,4 @@ const isValidIP = (str) => {
 // console.log(isValidIP("1.2.3.4\n"));
 // console.log(isValidIP("\n1.2.3.4"));
 
-module.exports = isValidIP;
+export default isValidIP;
