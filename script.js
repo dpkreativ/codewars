@@ -74,3 +74,24 @@ import lovefunc from "./katas/8kyu/OppositesAttract.js";
 // console.log(lovefunc(2, 2));
 // console.log(lovefunc(0, 1));
 // console.log(lovefunc(0, 0));
+
+// ===========================================================================
+// === Day 4 ===
+
+// == Greed is Good (5kyu) ==
+import score from "./katas/5kyu/GreedIsGood.js";
+
+// Tests
+// console.log(score([2, 3, 4, 6, 2])) // Should be 0
+// console.log(score([4, 4, 4, 3, 3])) // Should be 400
+// console.log(score([2, 4, 4, 5, 4])) // Should be 450
+
+// == Get Nth Even Number ==
+import nthEven from "./katas/8kyu/NthEvenNumber.js";
+
+// Tests
+console.log(nthEven(1));
+console.log(nthEven(2));
+console.log(nthEven(3));
+console.log(nthEven(100));
+console.log(nthEven(1298734));
