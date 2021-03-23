@@ -13,7 +13,7 @@ The input string can be of arbitrary length - in particular, it may be empty. Al
 */
 
 const DNAtoRNA = (dna) => {
-  return dna.replace(/U/gi, "T");
+  return dna.replace(/T/gi, "U");
 };
 
 export default DNAtoRNA;
