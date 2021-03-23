@@ -90,8 +90,19 @@ import score from "./katas/5kyu/GreedIsGood.js";
 import nthEven from "./katas/8kyu/NthEvenNumber.js";
 
 // Tests
-console.log(nthEven(1));
-console.log(nthEven(2));
-console.log(nthEven(3));
-console.log(nthEven(100));
-console.log(nthEven(1298734));
+// console.log(nthEven(1));
+// console.log(nthEven(2));
+// console.log(nthEven(3));
+// console.log(nthEven(100));
+// console.log(nthEven(1298734));
+
+// ===========================================================================
+// === Day 4 ===
+
+// == DNA to RNA Conversion (8kyu) ==
+import DNAtoRNA from "./katas/8kyu/DNAtoRNA.js";
+
+// Tests
+console.log(DNAtoRNA("TTTT"));
+console.log(DNAtoRNA("GCAT"));
+console.log(DNAtoRNA("GACCGCCGCC"));
