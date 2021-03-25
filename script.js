@@ -103,6 +103,19 @@ import nthEven from "./katas/8kyu/NthEvenNumber.js";
 import DNAtoRNA from "./katas/8kyu/DNAtoRNA.js";
 
 // Tests
-console.log(DNAtoRNA("TTTT"));
-console.log(DNAtoRNA("GCAT"));
-console.log(DNAtoRNA("GACCGCCGCC"));
+// console.log(DNAtoRNA("TTTT"));
+// console.log(DNAtoRNA("GCAT"));
+// console.log(DNAtoRNA("GACCGCCGCC"));
+
+// ===========================================================================
+// === Day 5 ===
+
+// == Stones on the Table (7kyu) ==
+import solve from "./katas/7kyu/StonesOnTable.js";
+
+// Tests
+console.log(solve("RRGGBB"));
+console.log(solve("RGBRGB"));
+console.log(solve("BGRBBGGBRRR"));
+console.log(solve("GBBBGGRRGRB"));
+console.log(solve("GBRGGRBBBBRRGGGB"));
