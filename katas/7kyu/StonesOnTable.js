@@ -11,6 +11,20 @@ Examples:
 "RRRRGGGGBBBB" => 9
 */
 // === Solution ===
-const solve = (stones) => {};
+const solve = (stones) => {
+  let stonesArray = stones.split("");
+  let acceptedStones = [];
+  let rejectedStones = [];
+  for (let i = 0; i < stonesArray.length; i++) {
+    if (rejectedStones.length === 0 && acceptedStones.length === 0) {
+      acceptedStones.push(stonesArray[i]);
+    } else if (stonesArray[i] === acceptedStones[acceptedStones.length - 1]) {
+      rejectedStones.push(stonesArray[i]);
+    } else {
+      acceptedStones.push(stonesArray[i]);
+    }
+  }
+  return rejectedStones.length;
+};
 
 export default solve;
