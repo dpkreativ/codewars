@@ -15,6 +15,15 @@ For example:
 23500 --> "89 hour(s) and 51 minute(s)"
 */
 // === Solution ===
-const toTime = (seconds) => {};
+const toTime = (seconds) => {
+  // const toMinutes = seconds / 60;
+  // const toHours = Math.floor(toMinutes / 60);
+  // const minutesLeft = Math.floor(toMinutes % 60);
+  // const displayTime = `${toHours} hour(s) and ${minutesLeft} minute(s)`;
+  // return displayTime;
+  return `${Math.floor(seconds / 3600)} hour(s) and ${Math.floor(
+    (seconds / 60) % 60
+  )} minute(s)`;
+};
 
 export default toTime;
