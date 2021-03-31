@@ -114,8 +114,21 @@ import DNAtoRNA from "./katas/8kyu/DNAtoRNA.js";
 import solve from "./katas/7kyu/StonesOnTable.js";
 
 // Tests
-console.log(solve("RRGGBB"));
-console.log(solve("RGBRGB"));
-console.log(solve("BGRBBGGBRRR"));
-console.log(solve("GBBBGGRRGRB"));
-console.log(solve("GBRGGRBBBBRRGGGB"));
+// console.log(solve("RRGGBB"));
+// console.log(solve("RGBRGB"));
+// console.log(solve("BGRBBGGBRRR"));
+// console.log(solve("GBBBGGRRGRB"));
+// console.log(solve("GBRGGRBBBBRRGGGB"));
+
+// ===========================================================================
+// === Day 6 ===
+
+// == To Time (7kyu) ==
+import toTime from "./katas/7kyu/toTime.js";
+
+// Tests
+console.log(toTime(3600));
+console.log(toTime(3601));
+console.log(toTime(3500));
+console.log(toTime(323500));
+console.log(toTime(0));
