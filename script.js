@@ -127,8 +127,18 @@ import solve from "./katas/7kyu/StonesOnTable.js";
 import toTime from "./katas/7kyu/toTime.js";
 
 // Tests
-console.log(toTime(3600));
-console.log(toTime(3601));
-console.log(toTime(3500));
-console.log(toTime(323500));
-console.log(toTime(0));
+// console.log(toTime(3600));
+// console.log(toTime(3601));
+// console.log(toTime(3500));
+// console.log(toTime(323500));
+// console.log(toTime(0));
+
+// ===========================================================================
+// === Day 7 ===
+
+// == Price of Mangoes ==
+import MangoDiscount from "./katas/8kyu/MangoDiscount.js";
+
+// Tests
+console.log(MangoDiscount(3, 3));
+console.log(MangoDiscount(9, 5));
