@@ -141,4 +141,4 @@ import MangoDiscount from "./katas/8kyu/MangoDiscount.js";
 
 // Tests
 console.log(MangoDiscount(3, 3));
-console.log(MangoDiscount(9, 5));
+console.log(MangoDiscount(10, 5));
