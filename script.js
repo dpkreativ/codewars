@@ -140,5 +140,16 @@ import toTime from "./katas/7kyu/toTime.js";
 import MangoDiscount from "./katas/8kyu/MangoDiscount.js";
 
 // Tests
-console.log(MangoDiscount(3, 3));
-console.log(MangoDiscount(10, 5));
+// console.log(MangoDiscount(3, 3));
+// console.log(MangoDiscount(10, 5));
+
+// ===========================================================================
+// === Day 8 ===
+
+// == Max sum between two negatives ==
+import maxSum from "./katas/7kyu/MaxSum.js";
+
+// Tests
+console.log(maxSum([-1, 6, -2, 3, 5, -7])); // 8
+console.log(maxSum([5, -1, -2])); // 0
+console.log(maxSum([1, -2])); // -1
