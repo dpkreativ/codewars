@@ -22,6 +22,40 @@ Example scoring
 In some languages, it is possible to mutate the input to the function. This is something that you should never do. If you mutate the input, you will not be able to pass all the tests.
 */
 // === Solution ===
-const score = (dice) => {};
+const score = (dice) => {
+  let arr1 = [],
+    arr2 = [],
+    arr3 = [],
+    arr4 = [],
+    arr5 = [],
+    arr6 = [];
+
+  dice.forEach((num) => {
+    num === 1
+      ? arr1.push(num)
+      : num === 2
+      ? arr2.push(num)
+      : num === 3
+      ? arr3.push(num)
+      : num === 4
+      ? arr4.push(num)
+      : num === 5
+      ? arr5.push(num)
+      : num === 6
+      ? arr6.push(num)
+      : null;
+  });
+
+  const pt1 =
+    arr1.length >= 3 ? 1000 + (arr1.length - 3) * 100 : arr1.length * 100;
+  const pt2 = arr2.length >= 3 ? 200 + 0 : 0;
+  const pt3 = arr3.length >= 3 ? 300 + 0 : 0;
+  const pt4 = arr4.length >= 3 ? 400 + 0 : 0;
+  const pt5 =
+    arr5.length >= 3 ? 500 + (arr5.length - 3) * 50 : arr5.length * 50;
+  const pt6 = arr6.length >= 3 ? 600 + 0 : 0;
+
+  return pt1 + pt2 + pt3 + pt4 + pt5 + pt6;
+};
 
 export default score;

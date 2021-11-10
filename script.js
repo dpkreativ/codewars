@@ -82,9 +82,9 @@ import lovefunc from "./katas/8kyu/OppositesAttract.js";
 import score from "./katas/5kyu/GreedIsGood.js";
 
 // Tests
-// console.log(score([2, 3, 4, 6, 2])) // Should be 0
-// console.log(score([4, 4, 4, 3, 3])) // Should be 400
-// console.log(score([2, 4, 4, 5, 4])) // Should be 450
+console.log(score([2, 3, 4, 6, 2])); // Should be 0
+console.log(score([4, 4, 4, 3, 3])); // Should be 400
+console.log(score([2, 4, 4, 5, 4])); // Should be 450
 
 // == Get Nth Even Number ==
 import nthEven from "./katas/8kyu/NthEvenNumber.js";
@@ -150,6 +150,6 @@ import MangoDiscount from "./katas/8kyu/MangoDiscount.js";
 import maxSum from "./katas/7kyu/MaxSum.js";
 
 // Tests
-console.log(maxSum([-1, 6, -2, 3, 5, -7])); // 8
-console.log(maxSum([5, -1, -2])); // 0
-console.log(maxSum([1, -2])); // -1
+// console.log(maxSum([-1, 6, -2, 3, 5, -7])); // 8
+// console.log(maxSum([5, -1, -2])); // 0
+// console.log(maxSum([1, -2])); // -1
