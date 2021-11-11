@@ -8,7 +8,9 @@ The input string will only consist of lower case letters and/or spaces.
 */
 
 // === Solution ===
-export function getCount(str) {
-  // Write function here
+const getCount = (str) => {
   let vowelsCount = 0;
-}
+  // Write your code here
+};
+
+module.exports = getCount;
