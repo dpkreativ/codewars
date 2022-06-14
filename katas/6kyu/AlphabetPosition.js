@@ -5,4 +5,4 @@ function alphabetPosition(text) {
   return text;
 }
 
-console.log(alphabetPosition);
+console.log(alphabetPosition(test));
