@@ -2,7 +2,13 @@
 const test = "The sunset sets at twelve o' clock.";
 
 function alphabetPosition(text) {
-  return text;
+  const alphabets = 'abcdefghijklmnopqrstuvwxyz'.split('');
+  return text
+    .toLowerCase()
+    .split('')
+    .filter((el) => el.match(/[a-z]/))
+    .map((el) => (el = alphabets.indexOf(el) + 1))
+    .join(' ');
 }
 
 console.log(alphabetPosition(test));
